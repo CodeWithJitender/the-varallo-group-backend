@@ -52,7 +52,7 @@ const seedHome = async () => {
                     link: "/about",
                 },
                 image: {
-                    url: "/images/home/hero-main.jpg",
+                    url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654121/hero_kxs1h1_mjadza.png",
                     alt: "Court reporting professional",
                 },
             },
@@ -74,7 +74,7 @@ const seedHome = async () => {
                     "Delivering Solutions to Court Reporting Firms Across the U.S. Backed by over 50 years of leadership and expertise in the court reporting industry, The Varallo Group combines a rich legacy, unwavering commitment, and forward-thinking innovation to empower and support your firm every step of the way.",
 
                 image: {
-                    url: "/images/home/experience.jpg",
+                    url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654117/about-home_hgci6g_ggurfw.png",
                     alt: "Professional team",
                 },
 
@@ -86,19 +86,19 @@ const seedHome = async () => {
 
                 highlights: [
                     {
-                        icon: "/images/home/ab-1.png",
+                        icon: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654114/ab-1_m4fofk_puuuto.png",
                         title: "Technology-Driven",
                         description:
                             "We leverage advanced tools to streamline scheduling, delivery, and communication so you can scale with confidence.",
                     },
                     {
-                        icon: "/images/home/ab-2.png",
+                        icon: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654114/ab-2_yht0sc_jdw5bv.png",
                         title: "Confidential & Reliable",
                         description:
                             "We recognize the trust you’ve placed in us, and we’re dedicated to protecting the confidentiality of your private company information.",
                     },
                     {
-                        icon: "/images/home/ab-3.png",
+                        icon: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654114/ab-3_rpcdr4_xbdlik.png",
                         title: "People First",
                         description:
                             "It’s not just what we do, it’s about the people we serve. Our dedicated team brings genuine passion to help your business thrive and succeed.",
@@ -133,33 +133,33 @@ const seedHome = async () => {
                         title: "TVG Verify",
                         description:
                             "Let us ensure your hiring is secure with reliable background screening and compliance checks.",
-                        image: "/images/home/verify.jpg",
+                        image: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654126/smart-8_qse95f_zdwowb.jpg",
                     },
                     {
                         title: "TVG Management",
                         description:
                             "Comprehensive agency management support focused on optimizing day-to-day operations.",
-                        image: "/images/home/management.jpg",
+                        image: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654121/smart-1_bnoofh_wyvooj.jpg",
                     },
                     {
-                        title: "TVG Legal Video",
+                        title: "TVG Reporting",
                         description: "High-quality legal video services to support your cases.",
-                        image: "/images/home/legal-video.jpg",
+                        image: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654122/smart-2_fwdmzx_dwjzro.jpg",
                     },
                     {
-                        title: "TVG Scheduling",
+                        title: "TVG Stream",
                         description: "Smart scheduling solutions built for efficiency.",
-                        image: "/images/home/scheduling.jpg",
+                        image: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654122/smart-3_dalt5r_qkf0u3.jpg",
                     },
                     {
-                        title: "TVG Support",
+                        title: "TVG Books",
                         description: "Dedicated support teams that scale with your firm.",
-                        image: "/images/home/support.jpg",
+                        image: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654125/smart-4_dzjgbd_t20g6t.jpg",
                     },
                     {
-                        title: "TVG Compliance",
+                        title: "TVG Connect",
                         description: "Compliance services you can trust.",
-                        image: "/images/home/compliance.jpg",
+                        image: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654126/smart-6_owwgbd_u42ppp.jpg",
                     },
                 ],
             },
@@ -179,7 +179,7 @@ const seedHome = async () => {
                 description:
                     "For court reporting firms that value reliability, accuracy, and confidentiality, our team delivers more than just services; we deliver peace of mind.",
                 image: {
-                    url: "/images/home/trust.jpg",
+                    url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654130/why-choose_cq2tvu_x3vfdz.png",
                     alt: "Hands typing on stenography machine",
                 },
                 cards: [
@@ -236,7 +236,7 @@ const seedHome = async () => {
                         title: "Nationwide Reach. Local Expertise.",
                         body: "Trusted with skilled professionals across all 50 states, we offer personalized court reporting and legal services backed by decades of regional expertise.",
                         image: {
-                            url: "/images/home/capability-1.jpg",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654116/featured-1_esxxo4_yjib6p.jpg",
                             alt: "Group of professionals smiling",
                         },
                         learnMore: {
@@ -248,7 +248,7 @@ const seedHome = async () => {
                         title: "One Team. Multiple Solutions.",
                         body: "From court reporting coverage to administrative and business support, our team offers a comprehensive range of services customized to meet your firm's unique needs.",
                         image: {
-                            url: "/images/home/capability-2.jpg",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654117/featured-2_tqyqny_ebm0hd.jpg",
                             alt: "Two professionals working on a tablet with scales",
                         },
                         learnMore: {
@@ -260,7 +260,7 @@ const seedHome = async () => {
                         title: "Tech Driven. People Focused.",
                         body: "We combine advanced technology with genuine human insight to deliver efficient, secure, and attentive support. Because behind every service is a team that truly cares.",
                         image: {
-                            url: "/images/home/capability-3.jpg",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766654118/featured-3_ppd6ot_vboqlb.jpg",
                             alt: "Camera crew filming studio discussion",
                         },
                         learnMore: {

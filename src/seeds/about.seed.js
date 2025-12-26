@@ -53,7 +53,7 @@ const seedAbout = async () => {
                 },
 
                 image: {
-                    url: "/images/about/hero.jpg",
+                    url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736715/about-hero_vqc0hk.png",
                     alt: "The Varallo Group leadership team",
                 },
             },
@@ -93,7 +93,7 @@ const seedAbout = async () => {
                     "We’re building a future where every firm, big or small, has access to proven solutions backed by experience. Through smart tech and passionate people, we’re supporting the industry, one partnership at a time.",
 
                 image: {
-                    url: "/images/about/vision.jpg",
+                    url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736721/vision_mc6nnw.png",
                     alt: "Professionals reviewing legal documents"
                 }
             },
@@ -119,10 +119,9 @@ const seedAbout = async () => {
                         description:
                             "Founded in 2001 with a clear mission to deliver exceptional court reporting and legal support services rooted in professionalism, reliability, and personal attention. The Varallo Group builds on a family legacy dating back to 1937. For nearly 100 years, the Varallo name has been synonymous with excellence in the field.",
                         image: {
-                            url: "/images/about/legacy.jpg",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736717/our-legacy_pnhf2e.jpg",
                             alt: "The Varallo Group leadership team",
                         },
-                        imagePosition: "left",
                     },
 
                     {
@@ -131,10 +130,9 @@ const seedAbout = async () => {
                         description:
                             "From the start, The Varallo Group set out to be a different kind of court reporting firm. We've assembled a team of experts dedicated to upholding the highest standards of accuracy, responsiveness, and service. Whether handling routine depositions, high-profile cases, administration, or communications, we bring the same precision, discretion, and care to every client. Our founder, Nancy Varallo, a lifelong court reporter and respected industry leader, shaped the company’s client-first culture. Under her guidance, The Varallo Group has grown into a trusted partner for court reporting firms, government agencies, and organizations nationwide.",
                         image: {
-                            url: "/images/about/commitment.jpg",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766737134/our-commitment_ba9xft.jpg",
                             alt: "Professionals collaborating in a meeting",
                         },
-                        imagePosition: "right",
                     },
 
                     {
@@ -143,10 +141,9 @@ const seedAbout = async () => {
                         description:
                             "What truly sets us apart is the people behind the name. Our team is loyal, experienced, and empowered to deliver results. We continuously invest in technology, talent, and training to stay ahead in a rapidly evolving legal landscape — because our clients rely on us to get it right, every time. At The Varallo Group, we combine a proud legacy of excellence with forward-thinking innovation to meet tomorrow’s challenges.",
                         image: {
-                            url: "/images/about/future.jpg",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766737133/our-future_bmjwpi.jpg",
                             alt: "Diverse professional team standing together",
                         },
-                        imagePosition: "left",
                     },
                 ],
             },
@@ -164,25 +161,19 @@ const seedAbout = async () => {
             isActive: true,
             content: {
                 quote: {
-                    startImage: {
-                        url: "/images/about/quote-start.png",
-                        alt: "Opening quote icon",
-                    },
+                   
 
                     text:
                         "Our team is the heart of The Varallo Group. They bring dedication, professionalism, and integrity to everything they do. I’m constantly inspired by their commitment to our clients and to each other. It’s a privilege to work alongside such talented people who take real pride in delivering excellence every single day.",
 
-                    endImage: {
-                        url: "/images/about/quote-end.png",
-                        alt: "Closing quote icon",
-                    },
+                 
                 },
 
                 name: "Nancy Varallo",
 
                 profile: {
                     image: {
-                        url: "/images/about/nancy-varallo.png",
+                        url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736715/founder_ncvend.png",
                         alt: "Nancy Varallo, Founder of The Varallo Group",
                     },
 
@@ -227,7 +218,7 @@ const seedAbout = async () => {
                         name: "Nancy Varallo",
                         designation: "Founder and CEO",
                         image: {
-                            url: "/images/team/nancy-varallo.png",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736716/team-1_gxiwdy.jpg",
                             alt: "Nancy Varallo",
                         },
                         linkedin: "https://www.linkedin.com/in/nancy-varallo-8346a248/",
@@ -236,7 +227,7 @@ const seedAbout = async () => {
                         name: "George Catugono",
                         designation: "COO",
                         image: {
-                            url: "/images/team/george-catugono.png",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736716/team-2_l8bhu4.jpg",
                             alt: "George Catugono",
                         },
                         linkedin: "https://www.linkedin.com/in/george-catuogno-2627a67/",
@@ -245,7 +236,7 @@ const seedAbout = async () => {
                         name: "Cedar Bushong",
                         designation: "Director of IT and Marketing",
                         image: {
-                            url: "/images/team/cedar-bushong.png",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736716/team-3_ckmmjf.jpg",
                             alt: "Cedar Bushong",
                         },
                         linkedin: "https://www.linkedin.com/in/cedar-bushong-27b96751/",
@@ -255,31 +246,31 @@ const seedAbout = async () => {
                     {
                         name: "Ellie Reinhardt",
                         designation: "Director of Financial Operations",
-                        image: { url: "/images/team/member-4.png", alt: "Team member" },
+                        image: { url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736716/team-4_ljfqm0.jpg", alt: "Team member" },
                         linkedin: "https://www.linkedin.com/in/ellie-reinhardt-565252b6/",
                     },
                     {
                         name: "Mike Schena",
                         designation: "Director of Business Development",
-                        image: { url: "/images/team/member-5.png", alt: "Team member" },
+                        image: { url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736719/team-5_i5gd1g.jpg", alt: "Team member" },
                         linkedin: "https://www.linkedin.com/in/michael-schena-iii-774146aa/",
                     },
                     {
                         name: "Sarah Moynihan",
                         designation: "Director of Court Reporting Operations",
-                        image: { url: "/images/team/member-6.png", alt: "Team member" },
+                        image: { url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736733/team-6_wmxkkj.jpg", alt: "Team member" },
                         linkedin: "https://www.linkedin.com/in/sarah-moynihan/",
                     },
                     {
                         name: "Pat Blaskopf",
                         designation: "Director of Video Services",
-                        image: { url: "/images/team/member-7.png", alt: "Team member" },
+                        image: { url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736719/team-7_zklyql.jpg", alt: "Team member" },
                         linkedin: "https://www.linkedin.com/in/patrick-blaskopf/",
                     },
                     {
                         name: "Amelia Schneider",
                         designation: "Director of Association Services",
-                        image: { url: "/images/team/member-8.png", alt: "Team member" },
+                        image: { url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766736720/team-8_kqr1gh.jpg", alt: "Team member" },
                         linkedin: "https://www.linkedin.com/in/amelia-schneider-012617/",
                     },
                 ],

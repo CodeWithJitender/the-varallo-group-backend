@@ -47,41 +47,32 @@ const seedContact = async () => {
                 description:
                     "Reach out today, we'll map the way forward with clear strategies and reliable legal assistance.",
                 buttons: [
-                    {
-                        text: "Request a call back for other services",
-                        link: "mailto:info@varallogroup.com",
-                        type: "primary",
-                    },
+                    
                     {
                         text: "Schedule a Deposition",
                         link: "#contact-main",
                         type: "link",
-                        icon: "fal fa-external-link",
+                       
                     },
                 ],
-                mobileSlider: {
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                    fade: true,
+                
+    
                     images: [
                         {
-                            url: "/contact1.png",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766739737/contact2_ho8dms.png",
                             alt: "Contact image 1",
                         },
                         {
-                            url: "/contact2.png",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766739738/contact3_tpjmor.png",
                             alt: "Contact image 2",
                         },
                         {
-                            url: "/contact3.png",
+                            url: "https://res.cloudinary.com/dh3dys6sf/image/upload/v1766739735/contact1_uk2oey.png",
                             alt: "Contact image 3",
                         },
                     ],
-                },
-                curvedSlider: {
-                    enabled: true,
-                    displayOn: "desktop",
-                },
+               
+              
             },
         });
 
@@ -152,12 +143,10 @@ const seedContact = async () => {
                     
                     socialLinks: [
                         {
-                            icon: "FaLinkedin",
-                            url: "#",
+                            url: "https://www.linkedin.com/company/the-varallo-group/",
                             label: "LinkedIn",
                         },
                         {
-                            icon: "FaFacebook",
                             url: "#",
                             label: "Facebook",
                         },
@@ -169,7 +158,6 @@ const seedContact = async () => {
                     enabled: true,
                     embedUrl:
                         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.234567!2d-71.7575!3d42.1947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3e8c8b2c0c9a3%3A0x123456789abcdef!2s34%20Grafton%20St%2C%20Millbury%2C%20MA%2001527!5e0!3m2!1sen!2sus!4v1700000000000",
-                    height: "384px",
                 },
                 
                 

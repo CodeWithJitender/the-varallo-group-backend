@@ -1,5 +1,5 @@
 import express from "express";
-import { getPageBySlug, getAllPages, updateSection } from "../controllers/pageController.js";
+import { getPageBySlug, getAllPages, updateSection, getServiceBySlug } from "../controllers/pageController.js";
 import { verifyToken } from "../middlewares/authMiddleware.js";
 import multer from "multer";
 
@@ -23,11 +23,16 @@ const upload = multer({
   },
 });
 
+// Get service subpage by slug (e.g., /api/pages/services/tvg-management) - PUBLIC
+router.get("/services/:slug", getServiceBySlug);
+
 // Get page by slug (with all sections) - PUBLIC
 router.get("/:slug", getPageBySlug);
 
 // Get all pages - PUBLIC
 router.get("/", getAllPages);
+
+
 
 // PATCH: Update section content with optional image upload - ADMIN ONLY
 router.patch(

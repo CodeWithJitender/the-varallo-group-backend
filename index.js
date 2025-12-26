@@ -10,12 +10,13 @@ import multer from 'multer';
 import authRouter from './src/routers/auth.routers.js';
 import pageRouter from './src/routers/pageRouter.js';
 import uploadRouter from './src/routers/uploadRouter.js';
+import contactRouter from './src/routers/contactRouter.js';
 const port = process.env.PORT || 3000;
 
 // CORS Configuration
 const corsOptions = {
-  origin: ['https://552a721652e2.ngrok-free.app','http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://127.0.0.1:5173'],
-  // credentials: true,
+  origin: ['https://552a721652e2.ngrok-free.app','http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173','https://the-varallo-group-backend.vercel.app/'],
+  credentials: true,
   optionsSuccessStatus: 200,
 };
 
@@ -51,6 +52,7 @@ app.locals.upload = upload;
 app.use('/api/auth', authRouter);
 app.use('/api/pages', pageRouter);
 app.use('/api/upload', uploadRouter);
+app.use('/api/contacts', contactRouter);
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log("Connected to MongoDB"))
@@ -58,6 +60,18 @@ mongoose.connect(process.env.MONGODB_URI)
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
+});
+
+// Global error handler (handle multer errors and other errors)
+app.use((err, req, res, next) => {
+  console.error('Global Error:', err);
+  if (err && err.name === 'MulterError') {
+    return res.status(400).json({ success: false, message: err.message, code: err.code });
+  }
+  if (err) {
+    return res.status(500).json({ success: false, message: err.message || 'Server error' });
+  }
+  next();
 });
 
 app.listen(port, () => {
